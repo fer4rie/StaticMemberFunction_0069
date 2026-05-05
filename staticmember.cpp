@@ -16,7 +16,7 @@ public:
     //pembuatan constructor Mahasiswa dengan parameter pnama
     //Member initialize list
     Mahasiswa(string pnama) :nama(pnama) {
-        setID;
+        setID();
     }
 };
 
